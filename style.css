@@ -1,4 +1,4 @@
-@import url('https://colorhunt.co/palette/1230ae6c48c5c68fe6fff7f7');
+@import url('link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap" rel="stylesheet');
 
 *{ 
     margin:0;
@@ -6,18 +6,18 @@
 }
 
 :root{
- --salmao: rgb(18, 48, 174);
- --roxo: rgb(198, 143, 230);
- --branco: rgb(108, 72, 197);
+ --violeta: rgb(18, 48, 174);
+ --lilas: rgb(198, 143, 230);
+ --roxo: rgb(108, 72, 197);
  --preto: rgb(5, 8, 10);
- ---fonte-primaria: "Gupter", serif;
- ---fonte-segundaria: "Poppins", sans-serif;
+ ---fonte-primaria: "Montserrat", sans-serif;
+ ---fonte-segundaria:  "SUSE", sans-serif;
 }
 
 body{
-    background-color: var(--branco);
+    background-color: var(--lilas);
     font-family: var(---fonte-segundaria);
-    color: var(--preto);
+    color: var(--roxa);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ body{
 
 h1{
     font-family: var(---fonte-primaria);
-    color: var(--roxo);
+    color: var(--violeta);
     font-size: 4em;
 }
 h3{
@@ -39,12 +39,12 @@ h3{
     font-size: 1.5em;
     color: var(--preto);
     margin-top: 20px;
-    background-color: var(--salmao);
+    background-color: var(--roxo);
     border-radius: 10px;
     padding: 20px;
 }
 .box{
-    border: 4px inset var(--vermelho);
+    border: 4px inset var(--violeta);
     display:inline-block;
     font-size: 2em;
     padding: 10px;
